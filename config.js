@@ -1,1 +1,88 @@
-{"property":{"streetAddress":"10 Morrison St","city":"NaN","cityStateZip":"NaN M5V2T8","heroSubtitle":"Join us for an open house event to explore this detached home with 2 bedrooms and 3 bathrooms. Discover more details, floor plans, and neighborhood insights at the event!","backgroundImageUrl":""},"realtor":{"fullName":"Driscoll-Peca Team","title":"REALTOR®","phone":null,"email":"ryan@driscollpeca.com","bio":"","photoUrl":null,"social":{"facebook":"https://www.facebook.com/driscollpecateam","instagram":"https://instagram.com/ae.parks","website":"https://driscollpeca.com/"}},"brokerage":{"name":"Real Broker LTD","logoUrl":null,"address":"218 Brant Avenue\nBrantford ON N3T 3H9"},"openHouse":{"eventDate":"2025-06-28","startTime":"14:00","endTime":"16:00","bundleItems":[]},"meta":{"pageTitlePrefix":"🏡 Driscoll-Peca Team Open House","navBrandLogoText":"OPEN HOUSE","privacyPolicyLink":"https://driscollpeca.com/privacy.html"},"settings":{"adminWebhookUrl":"https://n8n.salesgenius.co/webhook/openhouseupdate","visitorWebhookUrl":"https://n8n.salesgenius.co/webhook/openhouse","confettiColors":["#6187a7","#f0e9d6","#ffffff","#83a363","#d9ac68"]},"modalQuestions":[{"id":"agent_status","questionText":"Are you currently exploring homes with a real estate agent?","options":[{"value":"committed","text":"Yes, I'm committed to an agent."},{"value":"not_committed","text":"No, I'm not committed to an agent."},{"value":"gathering_info","text":"Just gathering information at this stage."}]},{"id":"interest_level","questionText":"How interested are you in properties like this?","options":[{"value":"very_interested","text":"Very interested, actively looking."},{"value":"somewhat_interested","text":"Somewhat interested, keeping options open."},{"value":"just_browsing","text":"Just browsing for now."}]},{"id":"neighborhood_engagement","questionText":"How do you usually enjoy the neighborhood?","options":[{"value":"resident_explorer","text":"I live here and love exploring locally."},{"value":"considering_move","text":"I'm considering moving to this area."},{"value":"just_visiting","text":"Just visiting for the open house."}]},{"id":"feature_attraction","questionText":"What feature attracted you to this home?","options":[{"value":"design_layout","text":"The design and layout."},{"value":"location_neighborhood","text":"The location and neighborhood."},{"value":"home_price","text":"The price of the home."}]}],"deploymentInfo":{"repoName":"Open-House-662","repoUrl":"https://github.com/arslvn93/Open-House-662","tag":"Open House 10 Morrison St","netlifyUrl":"","siteId":"1017506767"}}
+const config = {
+  "property": {
+    "streetAddress": "10 Morrison St",
+    "city": "NaN",
+    "cityStateZip": "NaN M5V2T8",
+    "heroSubtitle": "Join us for an open house event to explore this detached home with 2 bedrooms and 3 bathrooms. Discover more details, floor plans, and neighborhood insights at the event!",
+    "backgroundImageUrl": ""
+  },
+  "realtor": {
+    "fullName": "Driscoll-Peca Team",
+    "title": "REALTOR®",
+    "phone": null,
+    "email": "ryan@driscollpeca.com",
+    "bio": "",
+    "photoUrl": null,
+    "social": {
+      "facebook": "https://www.facebook.com/driscollpecateam",
+      "instagram": "https://instagram.com/ae.parks",
+      "website": "https://driscollpeca.com/"
+    }
+  },
+  "brokerage": {
+    "name": "Real Broker LTD",
+    "logoUrl": null,
+    "address": "218 Brant Avenue\nBrantford ON N3T 3H9"
+  },
+  "openHouse": {
+    "eventDate": "2025-06-28",
+    "startTime": "14:00",
+    "endTime": "16:00",
+    "bundleItems": []
+  },
+  "meta": {
+    "pageTitlePrefix": "🏡 Driscoll-Peca Team Open House",
+    "navBrandLogoText": "OPEN HOUSE",
+    "privacyPolicyLink": "https://driscollpeca.com/privacy.html"
+  },
+  "settings": {
+    "adminWebhookUrl": "https://n8n.salesgenius.co/webhook/openhouseupdate",
+    "visitorWebhookUrl": "https://n8n.salesgenius.co/webhook/openhouse",
+    "confettiColors": ["#6187a7","#f0e9d6","#ffffff","#83a363","#d9ac68"]
+  },
+  "modalQuestions": [
+    {
+      "id": "agent_status",
+      "questionText": "Are you currently exploring homes with a real estate agent?",
+      "options": [
+        { "value": "committed", "text": "Yes, I'm committed to an agent." },
+        { "value": "not_committed", "text": "No, I'm not committed to an agent." },
+        { "value": "gathering_info", "text": "Just gathering information at this stage." }
+      ]
+    },
+    {
+      "id": "interest_level",
+      "questionText": "How interested are you in properties like this?",
+      "options": [
+        { "value": "very_interested", "text": "Very interested, actively looking." },
+        { "value": "somewhat_interested", "text": "Somewhat interested, keeping options open." },
+        { "value": "just_browsing", "text": "Just browsing for now." }
+      ]
+    },
+    {
+      "id": "neighborhood_engagement",
+      "questionText": "How do you usually enjoy the neighborhood?",
+      "options": [
+        { "value": "resident_explorer", "text": "I live here and love exploring locally." },
+        { "value": "considering_move", "text": "I'm considering moving to this area." },
+        { "value": "just_visiting", "text": "Just visiting for the open house." }
+      ]
+    },
+    {
+      "id": "feature_attraction",
+      "questionText": "What feature attracted you to this home?",
+      "options": [
+        { "value": "design_layout", "text": "The design and layout." },
+        { "value": "location_neighborhood", "text": "The location and neighborhood." },
+        { "value": "home_price", "text": "The price of the home." }
+      ]
+    }
+  ],
+  "deploymentInfo": {
+    "repoName": "Open-House-662",
+    "repoUrl": "https://github.com/arslvn93/Open-House-662",
+    "tag": "Open House 10 Morrison St",
+    "netlifyUrl": "",
+    "siteId": "1c10ebb0-e359-48a7-85b2-822dc01f65ce"
+  }
+};
